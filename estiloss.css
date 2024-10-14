@@ -1,0 +1,39 @@
+body {
+    background-color: #212529;
+    color: #212529;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #28a745;
+    font-weight: bold;
+}
+
+h2 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid #007bff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+header {
+    margin-bottom: 50px;
+}
